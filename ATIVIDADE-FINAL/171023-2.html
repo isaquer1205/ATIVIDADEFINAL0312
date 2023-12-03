@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCÍCIO 2</title>
+    <style>
+        .titulo{text-align: center;
+background-color: #000;
+color: white
+}
+.subtitulo{
+font-family:serif;
+font-size: medium;
+text-align: center;
+color: white;
+background-color: green;
+background-attachment: fixed;
+
+}
+.beb{
+font-size: large;
+background-color: white;
+
+}
+    </style>
+</head>
+<body>
+    <header class = "titulo"> 
+        <h1> <img src="img/kk.png"width = "30"  style="filter: hue-rotate(270deg)"> ELIXIR</h1>
+      
+    </header>
+
+</body>
+<div class = " subtitulo">
+<h3>Escolha a bebida que mais combina com você!</h3>
+</div>
+<div class = "beb">
+ <p>de: <del> R$5,00</del> por: <b>R$4,00</b></p>   
+ <input type="checkbox" id="1" name="1" value="cerveja">
+    <label for="1">Cerveja</label> <br>
+    <p>de: <del> R$49,00</del> por: <b>R$45,00</b></p> 
+    <input type="checkbox" id="1" name="1" value="vinho_tinto">
+    <label for="1">Vinho Tinto</label> <br>
+    <input type="checkbox" id="1" name="1" value="vinho_branco">
+    <label for="1">Vinho Branco</label> <br>
+    <p>de: <del> R$17,00</del> por: <b>R$14,00</b></p> 
+    <input type="checkbox" id="1" name="1" value="whisky">
+    <label for="1">Whisky</label> <br>
+    &nbsp;&nbsp;&nbsp; <p> <b> 17,90</b></p>
+    <input type="checkbox" id="1" name="1" value="vodka">
+    <label for="1">Vodka</label> <br>
+    <input type="checkbox" id="1" name="1" value="gin">
+    <label for="1">Gin</label> <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p><b>150,00</b></p>
+    <input type="checkbox" id="1" name="1" value="tequila">
+    <label for="1">Tequila</label> <br>
+    <p>de: <del> R$17,00</del> por: <b>R$14,00</b></p> 
+    <input type="checkbox" id="1" name="1" value="coquetel_vodka">
+    <label for="1">Coquetéis à Base de Vodka</label> <br>
+    <input type="checkbox" id="1" name="1" value="coquetel_whisky">
+    <label for="1">Coquetéis à Base de Whisky</label> <br>
+</div>
+<div class = "fim">
+    <button id="btnAtualizarPagina">Confirmar</button>
+
+    <script>
+        var btnAtualizarPagina = document.getElementById('btnAtualizarPagina');
+            btnAtualizarPagina.addEventListener('click', function() {
+            location.reload();
+        });
+    </script>
+
+
+
+
+</div>
+</html>
